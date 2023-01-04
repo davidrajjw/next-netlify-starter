@@ -9,7 +9,12 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <body>import numpy as np
+    
+
+      <main>
+        <Header title="Welcome to my app!" />
+        <p className="description">
+          <body>import numpy as np
 import matplotlib.pyplot as plt
 def local_regression(x0, X, Y, tau):
  x0 = [1, x0] 
@@ -29,12 +34,7 @@ Y = np.log(np.abs(X ** 2 - 1) + .5)
 draw(10)
 draw(0.1)
 draw(0.01)
-draw(0.001)</body>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
+draw(0.001)</body></code>
         </p>
       </main>
 
